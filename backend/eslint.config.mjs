@@ -5,6 +5,9 @@ import globals from "globals";
 // Kita langsung mengekspor array dari objek konfigurasi.
 export default [
   {
+    ignores: ["build/**", "dist/**"],
+  },
+  {
     // Terapkan aturan ini ke semua file JavaScript/MJS/CJS
     files: ["**/*.{js,mjs,cjs}"],
     
